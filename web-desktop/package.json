@@ -1,11 +1,11 @@
 {
-  "name": "myoro-finance",
+  "name": "web-desktop",
   "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev-web": "next dev --turbopack",
-    "dev-desktop": "next dev --turbopack & electron ./electron/main.js",
+    "dev:web": "next dev --turbopack",
+    "dev:desktop": "next dev --turbopack & electron ./electron/main.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -14,7 +14,6 @@
   "dependencies": {
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "expo": "^52.0.37",
     "lucide-react": "^0.479.0",
     "next": "15.2.1",
     "next-themes": "^0.4.4",
